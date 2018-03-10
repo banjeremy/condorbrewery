@@ -1,0 +1,30 @@
+html {
+  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+  background-color: #0B0B0B;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+section {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+}
+
+section#hero {
+  background-image: url('./img/combined-image@2x.jpg');
+  height: 1080px;
+}
+
+section#coming-soon {
+  background-image: url('./img/coming-soon@3x.png');
+  height: 104px;
+}
+
+section#now-brewing {
+  background-image: url('./img/now-brewing@3x.jpg');
+  height: 960px;
+}
