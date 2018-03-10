@@ -8,23 +8,21 @@ body {
   margin: 0 auto;
 }
 
-section {
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 100%;
+img {
+  max-width: 100%;
 }
 
-section#hero {
-  background-image: url('./img/combined-image@2x.jpg');
-  height: 1080px;
+footer {
+  font-size: 14px;
+  color: #999;
 }
 
-section#coming-soon {
-  background-image: url('./img/coming-soon@3x.png');
-  height: 104px;
+.center {
+  text-align: center;
+  padding: 40px 0 10px;
 }
 
-section#now-brewing {
-  background-image: url('./img/now-brewing@3x.jpg');
-  height: 960px;
+a {
+  color: #eee;
+  text-decoration: none;
 }
